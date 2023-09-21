@@ -50,6 +50,6 @@ app.get("/borsa", async (req, res) => {
   res.send({ data: dataLast });
 });
 
-app.listen(5001, () => {
+app.listen(3000, () => {
   console.log("Server Aktif");
 });
